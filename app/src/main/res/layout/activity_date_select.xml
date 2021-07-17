@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+        <TextView
+            android:layout_margin="15dp"
+            android:layout_gravity="center_vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Select Date"
+            android:theme="@style/Theme.AttendanceApp.TextView"
+            android:textSize="18sp"
+            android:maxLength="15"
+            />
+
+        <CalendarView
+            android:id="@+id/calender"
+            android:backgroundTint="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="Take Attendance"
+            android:paddingVertical="10dp"
+            android:paddingHorizontal="15dp"
+            android:theme="@style/Theme.AttendanceApp.TextView"
+            android:textSize="22sp"
+            android:layout_gravity="center"
+            android:background="@drawable/item_button"
+            android:id="@+id/btnTakeAttendance"
+            android:layout_margin="@dimen/marginHorizontal"
+            android:layout_height="wrap_content"/>
+
+</LinearLayout>

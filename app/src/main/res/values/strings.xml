@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Attendance App</string>
+
+    <!--slider-->
+    <string name="title_activity_welcome">Home Screen</string>
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">GOT IT</string>
+
+    <string name="slide_1_title">Attendance Application</string>
+    <string name="slide_1_desc">The easiest way to take attendance of students</string>
+
+    <string name="slide_2_title">Classrooms</string>
+    <string name="slide_2_desc">View Classrooms and click on any classroom to take attendance for that classroom for any date of your choice</string>
+
+    <string name="slide_3_title">Students</string>
+    <string name="slide_3_desc">View All Classrooms and students in them. Also, Add new Students and Classrooms in this section</string>
+
+    <string name="slide_4_title">Attendance Stats</string>
+    <string name="slide_4_desc">View attendance of all students of a class for a specific day in Stats Section</string>
+
+</resources>

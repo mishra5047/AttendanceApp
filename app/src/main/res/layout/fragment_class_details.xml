@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:paddingHorizontal="20dp"
+    tools:context=".Fragments.ClassroomFragment">
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/Theme.AttendanceApp.TextView"
+        android:text="Students in "
+        android:textSize="25sp"
+        android:layout_marginVertical="@dimen/fab_margin"
+        />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recClass"
+        android:layout_width="match_parent"
+        android:layout_below="@id/text"
+        android:layout_height="wrap_content"/>
+
+    <ImageView
+        android:visibility="gone"
+        android:id="@+id/imageNone"
+        android:layout_height="250dp"
+        android:layout_width="match_parent"
+        android:layout_marginHorizontal="40dp"
+        android:layout_centerInParent="true"/>
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/addStudent"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentRight="true"
+        app:fabCustomSize="60dp"
+        android:layout_margin="15dp"
+        android:layout_alignParentBottom="true"
+        android:contentDescription="Add Student"
+        android:src="@android:drawable/ic_input_add"/>
+</RelativeLayout>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@+id/nav_classRoom">
+
+    <fragment
+        android:id="@+id/nav_classRoom"
+        android:name="com.abhishek.attendanceapp.Fragments.ClassroomFragment"
+        android:label="Classroom"
+        tools:layout="@layout/fragment_classroom" />
+
+    <fragment
+        android:id="@+id/nav_students"
+        android:name="com.abhishek.attendanceapp.Fragments.StudentsFragment"
+        android:label="Students"
+        tools:layout="@layout/fragment_students" />
+
+    <fragment
+        android:id="@+id/nav_stats"
+        android:name="com.abhishek.attendanceapp.Fragments.StatsFragment"
+        android:label="Stats"
+        tools:layout="@layout/fragment_stats" />
+
+</navigation>

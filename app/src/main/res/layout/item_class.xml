@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:elevation="10dp"
+    android:padding="10dp"
+    android:layout_margin="5dp"
+    android:background="@drawable/background_button"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:background="@drawable/classroom"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:id="@+id/imgClass"
+        android:layout_width="80dp"
+        android:layout_height="80dp"/>
+
+    <TextView
+        android:layout_margin="10dp"
+        android:layout_below="@id/imgClass"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/textClass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Class Name"
+        android:textSize="@dimen/slide_title"
+        android:textStyle="bold"
+        style="@style/Theme.AttendanceApp.TextView"
+        />
+
+</RelativeLayout>
