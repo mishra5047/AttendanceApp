@@ -107,7 +107,6 @@ public class SplashScreenActivity extends AppCompatActivity {
             finish();
         }
 
-        //  viewpager change listener
         ViewPager.OnPageChangeListener viewPagerPageChangeListener = new ViewPager.OnPageChangeListener() {
 
             @Override
