@@ -1,6 +1,6 @@
-#Attendance Application
+# Attendance Application
 
-###Tabs -
+### Tabs -
     1. Classroom tab  - > Attendance can be taken from here, it contains the list of classrooms.
     2. Students tab -> contains the details of all the students within various classrooms.
     3. Stats tab -> to generate a detailed report of attendance of a classroom on any date.
